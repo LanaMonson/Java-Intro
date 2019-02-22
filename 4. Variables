@@ -1,0 +1,17 @@
+// 1. A variable stores a value.
+// 2. In Java, all variables must have a specified data type. 
+
+// We can assign a variable to a specified data type, like this:
+// int myLuckyNumber = 7;
+// The variable myLuckyNumber now stores the value 7as an int type.
+
+
+public class Variables {
+	public static void main(String[] args) {
+
+		int myNumber = 42;
+		boolean isFun = true; 
+		char movieRating = 'A'; 
+
+	}
+}
