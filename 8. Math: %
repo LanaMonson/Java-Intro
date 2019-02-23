@@ -1,0 +1,12 @@
+// The modulo operator - represented in Java by the % symbol - returns the remainder of dividing two numbers.
+// For example, 15 % 6 will return the value of 3, because that is the remainder left over after dividing 15 by 6.
+
+
+public class Modulo {
+	public static void main(String[] args) {
+
+		int myRemainder = 7 % 5;
+		System.out.println(myRemainder);
+
+	}
+} 
