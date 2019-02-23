@@ -1,0 +1,21 @@
+//The equality operators are:
+// ==: equal to.
+// !=: not equal to.
+
+// Equality operators do not require that operands share the same ordering. For example, you can test equality across boolean, char, or int data types. The example below combines assigning variables and using an equality operator:
+// char myChar = 'A';
+// int myInt = -2;
+// System.out.println(myChar == myInt);
+
+//The example above will print out false because the value of myChar ('A') is not the same value as myInt('-2').
+
+
+public class EqualityOperators {
+	public static void main(String[] args) {
+
+		System.out.println(true == false);
+
+	}
+}
+
+//Output: false
