@@ -44,3 +44,7 @@ public class Conditionals {
 
 	}
 }
+
+//Output: 
+//You ordered a cup of Java!
+//You answered: C. That is correct!
