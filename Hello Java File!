@@ -43,3 +43,6 @@ public class HelloYou {
     System.out.println("Hello Lana!");
   }
 }
+
+Output:
+Hello Lana!
