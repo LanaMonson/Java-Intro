@@ -29,3 +29,38 @@ java Plankton
 
 An unsuccessful compilation produces a list of errors. No .class file is made until the errors are corrected 
 and the compile command is run again.
+
+Challenge Instructions:
+1.
+Let’s practice compiling and executing a file by entering commands in the terminal!
+
+Our text editor contains a broken program so we can see how compilers help us catch mistakes. Don’t make any corrections!
+
+In the terminal, type this command: javac Compiling.java and press enter or return.
+
+Use the Check Work button to progress through checkpoints.
+
+(Text editor file) Compiling.java
+
+public class Compiling {
+  public static void main(String[] args) {
+    
+    System.out.println("Java is a class-based language.");
+    System.out.println("Java classes have a 'main' method.");
+    System.out.println("Java statements end with a semicolon.")
+
+    System.out.println("Programming is... fun!");
+    
+  }
+}
+
+(Output) bash
+$ javac Compiling.java
+Compiling.java:6: error: ';' expected
+    System.out.println("Java statements end wit
+h a semicolon.")
+
+                ^
+1 error
+$ 
+
