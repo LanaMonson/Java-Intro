@@ -64,3 +64,28 @@ h a semicolon.")
 1 error
 $ 
 
+
+2.
+Do you see the error?
+
+The compiler is telling us one of the print statements is missing a semicolon.
+
+In the terminal, type ls and press return or enter.
+
+ls is short for "list" and this command lists all the available files.
+
+There is only one file: Compiling.java, we did not successfully compile the file because of the error.
+
+(Output) bash
+$ javac Compiling.java
+Compiling.java:6: error: ';' expected
+    System.out.println("Java statements end wit
+h a semicolon.")
+
+                ^
+1 error
+$ ls
+Compiling.java
+$
+
+
