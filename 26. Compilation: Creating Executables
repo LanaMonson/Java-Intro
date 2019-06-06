@@ -1,3 +1,5 @@
+Compilation: Creating Executables
+
 Compilation helped us catch an error. Now that we’ve corrected the file, let’s walk through a successful compilation.
 
 As a reminder, we can compile a .java file from the terminal with the command:
