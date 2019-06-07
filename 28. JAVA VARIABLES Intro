@@ -27,3 +27,29 @@ It’s common to declare a variable and assign the value in one line!
 For example, to assign 2011 to a variable named yearCodecademyWasFounded of type int, we write:
 
 int yearCodecademyWasFounded = 2011;
+
+Challenge Instructions:
+1.
+In Creator.java, we have defined some variables related to James Gosling, the creator of Java.
+
+Inside main(), use System.out.println() to print out the variable name.
+
+2.
+Use the same command to print out yearCreated.
+
+
+Editor (file) Creator.java
+
+public class Creator {
+	public static void main(String[] args) {
+    String name = "James Gosling";
+    int yearCreated = 1995;
+    
+    System.out.println(name);
+    System.out.println(yearCreated);
+	}
+}
+
+Output:
+James Gosling
+1995
